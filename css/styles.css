@@ -1,0 +1,37 @@
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+p span{
+    font-size: 35px;
+    color: rgb(255, 6, 6);
+}
+
+.hero div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 30px;
+}
+label {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+input {
+    padding: 5px;
+}
+
+button{
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ff0000, #fd5e1f);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+}

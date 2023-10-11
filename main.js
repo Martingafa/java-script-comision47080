@@ -5,9 +5,9 @@ class Producto {
     this.valorEnPesos = valorEnPesos;
     this.precioEnDolares = this.calcularPrecioEnDolares();
   }
-
+  
   calcularPrecioEnDolares() {
-    const valorDolarEnPesos = 1010;
+    const valorDolarEnPesos = 740;
     return this.valorEnPesos / valorDolarEnPesos;
   }
 }
@@ -47,6 +47,7 @@ function mostrarProductos() {
 agregarProductoBtn.addEventListener('click', agregarProducto);
 filtroInput.addEventListener('input', function() {
   let filtroTexto = filtroInput.value.toLowerCase();
+
   let productosFiltrados = productos.filter(function(producto) {
     return producto.nombre.toLowerCase().includes(filtroTexto);
   });

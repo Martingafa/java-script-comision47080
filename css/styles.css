@@ -26,7 +26,7 @@ input {
     padding: 5px;
 }
 
-button{
+button {
     font-size: 20px;
     display: inline-block;
     padding: 10px 20px;
@@ -34,4 +34,14 @@ button{
     color: #000000;
     border: none;
     border-radius: 5px;
+    transition: background 0.3s, color 0.3s; /* Agrega una transición suave */
+}
+
+button:active {
+    background: linear-gradient(to right, #fd5e1f, #ff0000); /* Cambia el fondo al presionar */
+    color: #ffffff; /* Cambia el color del texto al presionar */
+}
+
+ul {
+    font-size: 20px;
 }
